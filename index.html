@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Index</title>
+</head>
+
+<body>
+  <!-- Bar status  -->
+  <div class="phone-bar-status">
+    <div class="bar-status__hour">9:41</div>
+    <div class="icons-content-wrapper">
+      <img src="./img/Cellular Connection.png" alt="connection icon" class="bar-status__icon">
+      <img src="./img/Wifi.png" alt="wifi icon" class="bar-status__icon">
+      <img src="./img/Battery.png" alt="Battery icon" class="bar-status__icon">
+    </div>
+  </div>
+  <!-- Page content  -->
+  <div class="content-wrapper">
+
+    <!-- Header  -->
+    <header class="main-header">
+      <div class="notification-search-content-wrapper">
+        <p class="name">Hi John,</p>
+        <div class="icons-content-wrapper">
+          <button class="button">
+          </button>
+          <button class="button">
+          </button>
+        </div>
+      </div>
+      <!-- BANNER IMAGE -->
+      <img src="./img/banner.png" alt="banner image" class="banner-img">
+
+      <!-- Navigation bar  -->
+      <nav>
+        <ul class="nav-bar">
+          <li class="nav-bar__item"><a href="#" class="nav-bar__link">All</a></li>
+          <li class="nav-bar__item"><a href="#" class="nav-bar__link">Recommended</a></li>
+          <li class="nav-bar__item"><a href="#" class="nav-bar__link">Popular Books</a></li>
+          <li class="nav-bar__item"><a href="#" class="nav-bar__link">My Books</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <!-- Horizontal cards container  -->
+      <section class="h-book-card-content-wrapper">
+        <!-- CARD 1  -->
+        <article class="h-card">
+          <section class="h-card__info">
+            <a href="article.html" class="h-card__title">The little mermaid</a>
+            <p class="h-card__description">
+              “The Little Mermaid” is a
+              fairy tale written by the Danish author Hans
+              Christian Andersen.
+            </p>
+            <div class="h-card__rating-stars">
+              <button class="star-icon"></button>
+              <button class="star-icon"></button>
+              <button class="star-icon"></button>
+              <button class="star-icon"></button>
+              <button class="star-icon"></button>
+            </div>
+            <a href="#" class="h-card__tag">Fairy Tales</a>
+          </section>
+          <a href="article.html" class="img__link"><img src="./img/7c3d4265acb74a29308049c5eb5dafa0.png" alt="card background image" class="h-card__bg"></a>
+        </article>
+        <!-- CARD 2  -->
+        <article class="h-card">
+          <section class="h-card__info">
+            <a href="#" class="h-card__title">Willows Of Fate</a>
+            <p class="h-card__description">
+              Is there room in the hands of fate for free will?All her life, Desdemona has seen things others haven’t.
+            </p>
+            <div class="h-card__rating-stars">
+              <button class="star-icon"></button>
+              <button class="star-icon"></button>
+              <button class="star-icon"></button>
+              <button class="star-icon"></button>
+              <button class=" star-icon non-star-icon"></button>
+            </div>
+            <a class="h-card__tag">Drama</a>
+          </section>
+          <img src="./img/b33ca882a446b81db89257863a3571cc.png" alt="card background image" class="h-card__bg">
+        </article>
+      </section>
+      <!-- Vertical cards container  -->
+      <section class="v-book-card-content-wrapper">
+        <h2 class="section-sub">You may also like</h2>
+        <div class="v-card-content-wrapper">
+          <!-- CARD 1  -->
+          <article class="v-card">
+            <img src="./img/8ffb69a0ba005e9b44d0bdd703733999.png" alt="book image" class="v-card__img">
+            <div class="v-card__info">
+              <h1 class="v-card__title">Six of crows</h1>
+              <a href="#" class="v-card__tag">Classic</a>
+            </div>
+          </article>
+          <!-- CARD 2  -->
+          <article class="v-card">
+            <img src="./img/988c3cf626dadfd46e30f03251eaf22d.png" alt="book image" class="v-card__img">
+            <div class="v-card__info">
+              <h1 class="v-card__title">Times of Witches</h1>
+              <a href="#" class="v-card__tag">Antology</a>
+            </div>
+          </article>
+          <!-- CARD 3  -->
+          <article class="v-card">
+            <img src="./img/4dcf5be02d8ca4e186c73f2ad70cf631.png" alt="book image" class="v-card__img">
+            <div class="v-card__info">
+              <h1 class="v-card__title">Infinite Futures</h1>
+              <a href="#" class="v-card__tag">Mystery</a>
+            </div>
+          </article>
+          <!-- CARD 4  -->
+          <article class="v-card">
+            <img src="./img/c13a51e7b7e9a72c1583117a2114ac36.png" alt="book image" class="v-card__img">
+            <div class="v-card__info">
+              <h1 class="v-card__title">Sun the moon</h1>
+              <a href="#" class="v-card__tag">Romance</a>
+            </div>
+          </article>
+          <!-- CARD 5  -->
+          <article class="v-card">
+            <img src="./img/activo-5.png" alt="book image" class="v-card__img">
+            <div class="v-card__info">
+              <h1 class="v-card__title">Dancing with t</h1>
+              <a href="#" class="v-card__tag">Comic</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+  <!-- Three buttons section  -->
+  <div class="button-bar-section">
+    <!-- Heart button  -->
+    <button aria-label="like button" class="button-bar__button">
+      <img src="./img/heart.png" alt="heart button icon" class="button__icon">
+    </button>
+    <!-- Read button  -->
+    <button aria-label="read button" class="button-bar__button">
+      <img src="./img/book-1.png" alt="button book icon" class="button__book">
+    </button>
+    <!-- User button  -->
+    <button aria-label="user button" class="button-bar__button">
+      <img src="./img/user-1.png" alt="user button icon" class="button__icon">
+    </button>
+  </div>
+</body>
+
+</html>
